@@ -1,3 +1,5 @@
+##Code for Biochar Ttest
+
 import numpy as np
 from scipy.stats import f_oneway
 from scipy.stats import ttest_ind
@@ -110,9 +112,6 @@ for category, group_df in grouped:
         filename = f'images/box_total_{category}.tiff'
         plt.savefig(filename)
         plt.show()
-
-
-#Comment to check for other changes
     
 
 

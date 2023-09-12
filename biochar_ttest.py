@@ -112,6 +112,8 @@ for category, group_df in grouped:
         filename = f'images/box_total_{category}.tiff'
         plt.savefig(filename)
         plt.show()
+
+        
     
 
 

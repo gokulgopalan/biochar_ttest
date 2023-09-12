@@ -9,7 +9,7 @@ import pandas as pd
 df = pd.read_excel('biochar.xlsx')
 
 grouped = df.groupby('Assay')
-scaled = ['Transfer 0', 'Transfer 1', 'Transfer 2', 'Transfer 3']
+scaled = ['Challenge 0', 'Challenge 1', 'Challenge 2', 'Challenge 3']
 
 colors = ['blue', 'lime', 'red','blue', 'lime', 'red']
 variables = ['BEB 450', 'BEB 550', 'BEB 700']
